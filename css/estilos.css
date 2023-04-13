@@ -41,8 +41,26 @@ p.menu-restaurante{
 }
 
 @media only screen and (max-width: 480px) {
+  h1 {
+  font-size: 30px;
+  }
   
-}
+  h2.menu-restaurante {
+  font-size: 24px;
+  }
+  
+  p.menu-restaurante {
+  font-size: 16px;
+  }
+  
+  .column-3 {
+  grid-template-columns: repeat(2,1fr);
+  }
+  
+  .menu-restaurante {
+  min-height: 150px;
+  }
+  }
 
 
   
