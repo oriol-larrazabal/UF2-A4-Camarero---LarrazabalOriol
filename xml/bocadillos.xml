@@ -17,16 +17,15 @@
     <ingrediente nombre="Pimientos verdes 🥬 " />
     <ingrediente nombre="Jamón serrano🥩" />
   </plato>
-  <plato nombre="Bocadillo de Madrid" precio="5.50" descripcion="El bocadillo de la abuela, hecho con pan recién horneado, tortilla de patatas, pimientos verdes y jamón serrano" caracteristica="" kcal="500">
+  <plato nombre="Bocadillo de Madrid" precio="5.50" descripcion="El bocadillo de Madird, hecho con pan recién horneado, calamares y un toque de ali oli " caracteristica="" kcal="500">
     <ingrediente nombre="Pan🥖" />
-    <ingrediente nombre="Tortilla de patatas🥚" />
-    <ingrediente nombre="Pimientos verdes 🥬 " />
-    <ingrediente nombre="Jamón serrano" />
+    <ingrediente nombre="Calamares" />
+    <ingrediente nombre="Ali Oli🥚"  />
   </plato>
-  <plato nombre="Zape y Zipi" precio="5.50" descripcion="El bocadillo de la abuela, hecho con pan recién horneado, tortilla de patatas, pimientos verdes y jamón serrano" caracteristica="" kcal="500">
+  <plato nombre="Zape y Zipi" precio="5.50" descripcion="El bocadillo de Zape y Zipi, hecho con pan recién horneado, salsa agridulce y una mezcla de carne picada mixta, con un toque de cebolla caramelizada" caracteristica="" kcal="500">
     <ingrediente nombre="Pan🥖" />
-    <ingrediente nombre="Tortilla de patatas🥚" />
-    <ingrediente nombre="Pimientos verdes 🥬 " />
-    <ingrediente nombre="Jamón serrano🥩" />
+    <ingrediente nombre="Salsa agridulce" />
+    <ingrediente nombre="Cebolla" />
+    <ingrediente nombre="JCarne picada mixta🥩" />
   </plato>
   </platos>
