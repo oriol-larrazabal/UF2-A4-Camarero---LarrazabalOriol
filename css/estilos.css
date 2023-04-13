@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: overline;
+}
+
+h2.menu-restaurante{
+  color: black;
+  text-align: center;
+  font-size: 32px;
+}
+
+p.menu-restaurante{
+  font-size: 20px;
+  color:black;
+  text-align: justify;
+}
+
+.column-3{
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.menu-restaurante{
+  text-align: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+  
+}
+
+
+  

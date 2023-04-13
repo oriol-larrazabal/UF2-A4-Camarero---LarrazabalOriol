@@ -1,0 +1,36 @@
+<platos>
+  <plato nombre="Ensalada César" precio="8.95" descripcion="Ensalada con pollo, picatostes, salsa césar, queso y tomate" caracteristicas="" kcal="400">
+    <ingrediente nombre="Pollo" />
+    <ingrediente nombre="Picatostes" />
+    <ingrediente nombre="Salsa césar" />
+    <ingrediente nombre="Queso" />
+    <ingrediente nombre="Tomate" />
+  </plato>
+<plato nombre="Hummus" precio="6.95" descripcion="Puré de garbanzos con tahini, aceite de oliva y especias" caracteristicas="" kcal="300">
+    <ingrediente nombre="Garbanzos" />
+    <ingrediente nombre="Tahini" />
+    <ingrediente nombre="Aceite de oliva" />
+    <ingrediente nombre="Especias" />
+  </plato>
+  <plato nombre="Bruschetta" precio="7.95" descripcion="Pan tostado con tomate, ajo, albahaca y aceite de oliva" caracteristicas="" kcal="250">
+    <ingrediente nombre="Pan" />
+    <ingrediente nombre="Tomate" />
+    <ingrediente nombre="Ajo" />
+    <ingrediente nombre="Albahaca" />
+    <ingrediente nombre="Aceite de oliva" />
+  </plato>
+<plato nombre="Croquetas de jamón" precio="6.50" descripcion="Croquetas de jamón ibérico caseras, hechas con bechamel y jamón de bellota" caracteristica="" kcal="350">
+    <ingrediente nombre="Jamón ibérico" />
+    <ingrediente nombre="Bechamel" />
+    <ingrediente nombre="Pan rallado" />
+    <ingrediente nombre="Huevo" />
+    <ingrediente nombre="Aceite de oliva" />
+  </plato>
+  <plato nombre="Calamares a la romana" precio="8.50" descripcion="Calamares fritos con una masa crujiente de harina y especias" caracteristica="" kcal="420">
+    <ingrediente nombre="Calamares" />
+    <ingrediente nombre="Harina" />
+    <ingrediente nombre="Perejil" />
+    <ingrediente nombre="Ajo" />
+    <ingrediente nombre="Aceite de oliva" />
+  </plato>
+</platos>
