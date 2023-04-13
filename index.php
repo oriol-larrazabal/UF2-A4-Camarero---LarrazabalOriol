@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <em><h1>RESTAURANTE MANOLO</h1></em>
+    <em><h1>🍴RESTAURANTE MANOLO🍴</h1></em>
     <br>
     <style>
       body {
@@ -25,7 +25,7 @@
     </style>
     <div class="column-3 columns">
         <div class="menu-restaurante">
-            <u><h2>ENTRANTES</h2></u>
+            <u><h2>ENTRANTES🍟</h2></u>
             <?php
             /* Enlace al primer XML */
             if (file_exists('./xml/entrantes.xml')) {
@@ -47,7 +47,7 @@
             ?>
         </div>
     <div class="menu-restaurante">
-    <u><h2>BOCADILLOS</h2></u>
+    <u><h2>BOCADILLOS🍔</h2></u>
     <?php
 /* Enlace al segundo XML */
 if (file_exists('./xml/bocadillos.xml')) {
@@ -69,7 +69,7 @@ if (file_exists('./xml/bocadillos.xml')) {
 ?>
     </div>
     <div class="menu-restaurante">
-    <u><h2>POSTRES</h2></u>
+    <u><h2>POSTRES🍰</h2></u>
     <?php
 /* Enlace al tercer XML */
 if (file_exists('./xml/postres.xml')) {

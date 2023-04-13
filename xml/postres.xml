@@ -1,25 +1,25 @@
 <platos>
 <plato nombre="Volcán de Chocolate" precio="5.50" descripcion="Volcán de chocolate acompañado de nata y helado de vainilla" caracteristica="" kcal="800">
-    <ingrediente nombre="Helado de vainilla" />
+    <ingrediente nombre="Helado de vainilla🥚" />
     <ingrediente nombre="Coulant de chocoalte" />
     <ingrediente nombre="Nata montada" />
   </plato>
     <plato nombre="Quajada casera con miel" precio="5.50" descripcion="Deliciosa quajada casera acompañada de miel" caracteristica="" kcal="1000">
-    <ingrediente nombre="Quajada" />
+    <ingrediente nombre="Quajada🥚" />
     <ingrediente nombre="Miel" />
-    <ingrediente nombre="Azúcar" />
+    <ingrediente nombre="Azúcar🍬" />
   </plato>
     <plato nombre="Volcán de Chocolate" precio="5.50" descripcion="Volcán de chocolate acompañado de nata y helado de vainilla" caracteristica="" kcal="800">
-    <ingrediente nombre="Helado de vainilla" />
+    <ingrediente nombre="Helado de vainilla🥚" />
     <ingrediente nombre="Coulant de chocoalte" />
     <ingrediente nombre="Nata montada" />
   </plato>
     <plato nombre="Granizado de limón" precio="5.50" descripcion="Dulce granizado de limón bautizado con vodka" caracteristica="" kcal="800">
     <ingrediente nombre="Granizado de limón" />
-    <ingrediente nombre="Vodka" />
-    <ingrediente nombre="Menta" />
+    <ingrediente nombre="Vodka🍸" />
+    <ingrediente nombre="Menta 🥬 " />
   </plato>
     <plato nombre="Fruta del tiempo" precio="5.50" descripcion="Variado de fruta (depende de la temporada, pregunte al camarero)" caracteristica="" kcal="800">
-    <ingrediente nombre="Fruta" />
+    <ingrediente nombre="Fruta 🥬 " />
   </plato>
 </platos>
