@@ -28,15 +28,15 @@
             <u><h2>ENTRANTES🍟</h2></u>
             <?php
             /* Enlace al primer XML */
-            if (file_exists('./xml/entrantes.xml')) {
-                $platos = simplexml_load_file('./xml/entrantes.xml');
-                foreach ($platos->plato as $plato) {
-                    echo "<strong>" . $plato['nombre'] . "</strong>";
-                    echo "Precio: " . $plato['precio'] . "<br>";
-                    echo " " . $plato['descripcion'] . "<br>";
-                    echo "Calorías: " . $plato['kcal'] . "<br>";
+            if (file_exists('./xml/carta.xml')) {
+                $platos = simplexml_load_file('./xml/carta.xml');
+                foreach ($platos->entrante as $entrante) {
+                    echo "<strong>" . $entrante['nombre'] . "</strong>";
+                    echo "Precio: " . $entrante['precio'] . "<br>";
+                    echo " " . $entrante['descripcion'] . "<br>";
+                    echo "Calorías: " . $entrante['kcal'] . "<br>";
                     echo "Ingredientes:<br>";
-                    foreach ($plato->ingrediente as $ingrediente) {
+                    foreach ($entrante->ingrediente as $ingrediente) {
                         echo "- " . $ingrediente['nombre'] . "<br>";
                     }
                     echo "<br>";
@@ -50,15 +50,15 @@
     <u><h2>BOCADILLOS🍔</h2></u>
     <?php
 /* Enlace al segundo XML */
-if (file_exists('./xml/bocadillos.xml')) {
-    $platos = simplexml_load_file('./xml/bocadillos.xml');
-    foreach ($platos->plato as $plato) {
-        echo "<strong>" . $plato['nombre'] . "</strong>";
-        echo "Precio: " . $plato['precio'] . "<br>";
-        echo " " . $plato['descripcion'] . "<br>";
-        echo "Calorías: " . $plato['kcal'] . "<br>";
+if (file_exists('./xml/carta.xml')) {
+    $platos = simplexml_load_file('./xml/carta.xml');
+    foreach ($platos->bocadillo as $bocadillo) {
+        echo "<strong>" . $bocadillo['nombre'] . "</strong>";
+        echo "Precio: " . $bocadillo['precio'] . "<br>";
+        echo " " . $bocadillo['descripcion'] . "<br>";
+        echo "Calorías: " . $bocadillo['kcal'] . "<br>";
         echo "Ingredientes:<br>";
-        foreach ($plato->ingrediente as $ingrediente) {
+        foreach ($bocadillo->ingrediente as $ingrediente) {
             echo "- " . $ingrediente['nombre'] . "<br>";
         }
         echo "<br>";
@@ -72,15 +72,15 @@ if (file_exists('./xml/bocadillos.xml')) {
     <u><h2>POSTRES🍰</h2></u>
     <?php
 /* Enlace al tercer XML */
-if (file_exists('./xml/postres.xml')) {
-    $platos = simplexml_load_file('./xml/postres.xml');
-    foreach ($platos->plato as $plato) {
-        echo "<strong>" . $plato['nombre'] . "</strong>";
-        echo "Precio: " . $plato['precio'] . "<br>";
-        echo " " . $plato['descripcion'] . "<br>";
-        echo "Calorías: " . $plato['kcal'] . "<br>";
+if (file_exists('./xml/carta.xml')) {
+    $platos = simplexml_load_file('./xml/carta.xml');
+    foreach ($platos->postre as $postre) {
+        echo "<strong>" . $postre['nombre'] . "</strong>";
+        echo "Precio: " . $postre['precio'] . "<br>";
+        echo " " . $postre['descripcion'] . "<br>";
+        echo "Calorías: " . $postre['kcal'] . "<br>";
         echo "Ingredientes:<br>";
-        foreach ($plato->ingrediente as $ingrediente) {
+        foreach ($postre->ingrediente as $ingrediente) {
             echo "- " . $ingrediente['nombre'] . "<br>";
         }
         echo "<br>";

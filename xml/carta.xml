@@ -1,0 +1,102 @@
+<platos>
+<entrante nombre="Ensalada César" precio="8.95€" descripcion="Ensalada con pollo, picatostes, salsa césar, queso y tomate" caracteristicas="" kcal="400kcal">
+    <ingrediente nombre="Pollo🥩" />
+    <ingrediente nombre="Picatostes🥖" />
+    <ingrediente nombre="Salsa césar" />
+    <ingrediente nombre="Queso 🥬 " />
+    <ingrediente nombre="Tomate 🥬 " />
+</entrante>
+<entrante nombre="Hummus" precio="6.95€" descripcion="Puré de garbanzos con tahini, aceite de oliva y especias" caracteristicas="" kcal="300kcal">
+    <ingrediente nombre="Garbanzos🥬" />
+    <ingrediente nombre="Tahini🥬" />
+    <ingrediente nombre="Aceite de oliva 🥬 " />
+    <ingrediente nombre="Especias 🥬 " />
+</entrante>
+<entrante nombre="Bruschetta" precio="7.95€" descripcion="Pan tostado con tomate, ajo, albahaca y aceite de oliva" caracteristicas="" kcal="250kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Tomate" />
+    <ingrediente nombre="Ajo" />
+    <ingrediente nombre="Albahaca 🥬 " />
+    <ingrediente nombre="Aceite de oliva 🥬 " />
+</entrante>
+<entrante nombre="Croquetas de jamón" precio="6.50€" descripcion="Croquetas de jamón ibérico caseras, hechas con bechamel y jamón de bellota" caracteristica="" kcal="350kcal">
+    <ingrediente nombre="Jamón ibérico🥩" />
+    <ingrediente nombre="Bechamel🥚" />
+    <ingrediente nombre="Pan rallado🥖" />
+    <ingrediente nombre="Huevo🥚" />
+    <ingrediente nombre="Aceite de oliva🥬" />
+</entrante>
+<entrante nombre="Bruschetta" precio="7.95€" descripcion="Pan tostado con tomate, ajo, albahaca y aceite de oliva" caracteristicas="" kcal="250kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Tomate" />
+    <ingrediente nombre="Ajo" />
+    <ingrediente nombre="Albahaca 🥬 " />
+    <ingrediente nombre="Aceite de oliva 🥬 " />
+</entrante>
+<entrante nombre="Calamares a la romana" precio="8.50€" descripcion="Calamares fritos con una masa crujiente de harina y especias" caracteristica="" kcal="420kcal">
+    <ingrediente nombre="Calamares🍤" />
+    <ingrediente nombre="Harina🥖" />
+    <ingrediente nombre="Perejil 🥬 " />
+    <ingrediente nombre="Ajo" />
+    <ingrediente nombre="Aceite de oliva 🥬 " />
+</entrante>
+<bocadillo nombre="El Bocadillo de la Abuela" precio="5.50€" descripcion="El bocadillo de la abuela, hecho con pan recién horneado, tortilla de patatas, pimientos verdes y jamón serrano" caracteristica="" kcal="500kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Tortilla de patatas🥚" />
+    <ingrediente nombre="Pimientos verdes 🥬 " />
+    <ingrediente nombre="Jamón serrano🥩" />
+</bocadillo>
+<bocadillo nombre="El Bocadillo de los Domingos" precio="7.50€" descripcion="El bocadillo de los domingos, hecho con pan recién horneado,jamón, pimientos verdes y huevos fritos" caracteristica="" kcal="600kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Huevos fritos🥚" />
+    <ingrediente nombre="Pimientos verdes 🥬 " />
+    <ingrediente nombre="Jamón serrano🥩" />
+</bocadillo>
+<bocadillo nombre="Hamburguesa de la casa" precio="5.50€" descripcion="Hamburguesa de la casa, hecha con pan recién horneada, jamón serrano, huevo frito, cebolla caramelizada, huevo frito y un suave toque de salsa barbacoa" caracteristica="" kcal="850kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Huevo frito🥚" />
+    <ingrediente nombre="Cebolla caramelizada 🥬 " />
+    <ingrediente nombre="Salsa barbacoa" />
+    <ingrediente nombre="Hamburguesa de ternera de 250g🥩" />
+    <ingrediente nombre="Jamón serrano🥩" />
+</bocadillo>
+<bocadillo nombre="Bocadillo de Madrid" precio="5.50€" descripcion="El bocadillo de Madird, hecho con pan recién horneado, calamares y un toque de ali oli " caracteristica="" kcal="800kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Calamares" />
+    <ingrediente nombre="Ali Oli🥚"  />
+</bocadillo>
+<bocadillo nombre="Zape y Zipi" precio="5.50€" descripcion="El bocadillo de Zape y Zipi, hecho con pan recién horneado, salsa agridulce y una mezcla de carne picada mixta, con un toque de cebolla caramelizada" caracteristica="" kcal="700kcal">
+    <ingrediente nombre="Pan🥖" />
+    <ingrediente nombre="Salsa agridulce" />
+    <ingrediente nombre="Cebolla" />
+    <ingrediente nombre="Carne picada mixta🥩" />
+</bocadillo>
+<postre nombre="Volcán de Chocolate" precio="5.50€" descripcion="Volcán de chocolate acompañado de nata y helado de vainilla" caracteristica="" kcal="800kcal">
+    <ingrediente nombre="Helado de vainilla🥚" />
+    <ingrediente nombre="Coulant de chocoalte" />
+    <ingrediente nombre="Nata montada" />
+</postre>
+<postre nombre="Quajada casera con miel" precio="5.50€" descripcion="Deliciosa quajada casera acompañada de miel" caracteristica="" kcal="1000kcal">
+    <ingrediente nombre="Quajada🥚" />
+    <ingrediente nombre="Miel" />
+    <ingrediente nombre="Azúcar🍬" />
+</postre>
+<postre nombre="Granizado de limón" precio="5.50€" descripcion="Dulce granizado de limón bautizado con vodka" caracteristica="" kcal="800kcal">
+    <ingrediente nombre="Granizado de limón" />
+    <ingrediente nombre="Vodka🍸" />
+    <ingrediente nombre="Menta 🥬 " />
+</postre>
+<postre nombre="Mousse de frutos rojos" precio="3.50€" descripcion="Delicioso mousse de yogur con frutos rojos" caracteristica="" kcal="1000kcal">
+    <ingrediente nombre="Yogur🥚" />
+    <ingrediente nombre="Mermelada de frutos rojos" />
+    <ingrediente nombre="Azúcar glasé🍬" />
+  </postre>
+<postre nombre="Trufas de chocolate" precio="4.50€" descripcion="Deliciosas trufas heladas de chocolate" caracteristica="" kcal="1000kcal">
+    <ingrediente nombre="Chocolate" />
+    <ingrediente nombre="Nata" />
+    <ingrediente nombre="Azúcar🍬" />
+</postre>
+<postre nombre="Fruta del tiempo" precio="5.50€" descripcion="Variado de fruta (depende de la temporada, pregunte al camarero)" caracteristica="" kcal="800kcal">
+    <ingrediente nombre=" Variado de fruta 🥬 " />
+</postre>
+</platos>
