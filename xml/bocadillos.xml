@@ -1,17 +1,17 @@
   <platos>
-  <plato nombre="El Bocadillo de la Abuela" precio="5.50" descripcion="El bocadillo de la abuela, hecho con pan recién horneado, tortilla de patatas, pimientos verdes y jamón serrano" caracteristica="" kcal="500">
+  <plato nombre="El Bocadillo de la Abuela" precio="5.50€" descripcion="El bocadillo de la abuela, hecho con pan recién horneado, tortilla de patatas, pimientos verdes y jamón serrano" caracteristica="" kcal="500kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Tortilla de patatas🥚" />
     <ingrediente nombre="Pimientos verdes 🥬 " />
     <ingrediente nombre="Jamón serrano🥩" />
   </plato>
-  <plato nombre="El Bocadillo de los Domingos" precio="7.50" descripcion="El bocadillo de los domingos, hecho con pan recién horneado,jamón, pimientos verdes y huevos fritos" caracteristica="" kcal="600">
+  <plato nombre="El Bocadillo de los Domingos" precio="7.50€" descripcion="El bocadillo de los domingos, hecho con pan recién horneado,jamón, pimientos verdes y huevos fritos" caracteristica="" kcal="600kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Huevos fritos🥚" />
     <ingrediente nombre="Pimientos verdes 🥬 " />
     <ingrediente nombre="Jamón serrano🥩" />
   </plato>
-  <plato nombre="Hamburguesa de la casa" precio="5.50" descripcion="Hamburguesa de la casa, hecha con pan recién horneada, jamón serrano, huevo frito, cebolla caramelizada, huevo frito y un suave toque de salsa barbacoa" caracteristica="" kcal="850">
+  <plato nombre="Hamburguesa de la casa" precio="5.50€" descripcion="Hamburguesa de la casa, hecha con pan recién horneada, jamón serrano, huevo frito, cebolla caramelizada, huevo frito y un suave toque de salsa barbacoa" caracteristica="" kcal="850kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Huevo frito🥚" />
     <ingrediente nombre="Cebolla caramelizada 🥬 " />
@@ -19,15 +19,15 @@
     <ingrediente nombre="Hamburguesa de ternera de 250g🥩" />
     <ingrediente nombre="Jamón serrano🥩" />
   </plato>
-  <plato nombre="Bocadillo de Madrid" precio="5.50" descripcion="El bocadillo de Madird, hecho con pan recién horneado, calamares y un toque de ali oli " caracteristica="" kcal="800">
+  <plato nombre="Bocadillo de Madrid" precio="5.50€" descripcion="El bocadillo de Madird, hecho con pan recién horneado, calamares y un toque de ali oli " caracteristica="" kcal="800kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Calamares" />
     <ingrediente nombre="Ali Oli🥚"  />
   </plato>
-  <plato nombre="Zape y Zipi" precio="5.50" descripcion="El bocadillo de Zape y Zipi, hecho con pan recién horneado, salsa agridulce y una mezcla de carne picada mixta, con un toque de cebolla caramelizada" caracteristica="" kcal="700">
+  <plato nombre="Zape y Zipi" precio="5.50€" descripcion="El bocadillo de Zape y Zipi, hecho con pan recién horneado, salsa agridulce y una mezcla de carne picada mixta, con un toque de cebolla caramelizada" caracteristica="" kcal="700kcal">
     <ingrediente nombre="Pan🥖" />
     <ingrediente nombre="Salsa agridulce" />
     <ingrediente nombre="Cebolla" />
-    <ingrediente nombre="JCarne picada mixta🥩" />
+    <ingrediente nombre="Carne picada mixta🥩" />
   </plato>
   </platos>

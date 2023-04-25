@@ -32,8 +32,8 @@
                 $platos = simplexml_load_file('./xml/entrantes.xml');
                 foreach ($platos->plato as $plato) {
                     echo "<strong>" . $plato['nombre'] . "</strong>";
-                    echo "Precio: €" . $plato['precio'] . "<br>";
-                    echo "Descripción: " . $plato['descripcion'] . "<br>";
+                    echo "Precio: " . $plato['precio'] . "<br>";
+                    echo " " . $plato['descripcion'] . "<br>";
                     echo "Calorías: " . $plato['kcal'] . "<br>";
                     echo "Ingredientes:<br>";
                     foreach ($plato->ingrediente as $ingrediente) {
@@ -54,8 +54,8 @@ if (file_exists('./xml/bocadillos.xml')) {
     $platos = simplexml_load_file('./xml/bocadillos.xml');
     foreach ($platos->plato as $plato) {
         echo "<strong>" . $plato['nombre'] . "</strong>";
-        echo "Precio: €" . $plato['precio'] . "<br>";
-        echo "Descripción: " . $plato['descripcion'] . "<br>";
+        echo "Precio: " . $plato['precio'] . "<br>";
+        echo " " . $plato['descripcion'] . "<br>";
         echo "Calorías: " . $plato['kcal'] . "<br>";
         echo "Ingredientes:<br>";
         foreach ($plato->ingrediente as $ingrediente) {
@@ -76,8 +76,8 @@ if (file_exists('./xml/postres.xml')) {
     $platos = simplexml_load_file('./xml/postres.xml');
     foreach ($platos->plato as $plato) {
         echo "<strong>" . $plato['nombre'] . "</strong>";
-        echo "Precio: €" . $plato['precio'] . "<br>";
-        echo "Descripción: " . $plato['descripcion'] . "<br>";
+        echo "Precio: " . $plato['precio'] . "<br>";
+        echo " " . $plato['descripcion'] . "<br>";
         echo "Calorías: " . $plato['kcal'] . "<br>";
         echo "Ingredientes:<br>";
         foreach ($plato->ingrediente as $ingrediente) {
@@ -89,7 +89,17 @@ if (file_exists('./xml/postres.xml')) {
     exit('¡Restaurante fuera de servicio!.');
 }
 ?>
-    </div>
 </div>
+</br>
+<div class="pie">
+<p>Pregunte a nuestros amables camareros si padece alergías. Hay platos que pueden contener trazos de frutos secos, huevos o marisco.</p>
+    <ol>🥚 - Incluye trazas de huevo.</ol>
+    <ol>🍤 - Incluye trazas de pescado o marisco.</ol>
+    <ol>🥬 - Ingredientes veganos o vegetarianos.</ol>
+    <ol>🥩 - Ingredientes cárnicos.</ol>
+    <ol>🍬 - Ingredientes con una alta cantidad de azúcar.</ol>
+    <ol>🥖 - Ingredientes no aptos para celíacos.</ol>
+</div>
+    </div>
 </body>
 </html>
